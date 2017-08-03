@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.boxA {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: solid 5px #222;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+}
+
+/* 外枠:黒 */
+.boxA::before {
+  position: absolute;
+  bottom: -25px;
+  left: 28px;
+  border-top: solid 22px #222;
+  border-right: solid 22px transparent;
+  border-left: solid 22px transparent;
+  content: "";
+}
+
+/* 白抜き */
+.boxA::after {
+  position: absolute;
+  bottom: -18px;
+  left: 30px;
+  border-top: solid 20px #fff;
+  border-right: solid 20px transparent;
+  border-left: solid 20px transparent;
+  content: "";
+}
+
 /* 回答はここに書いてね */

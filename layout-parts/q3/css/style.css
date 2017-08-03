@@ -2,4 +2,44 @@
 
 /* 回答はここに書いてね */
 
+table {
+  width: 100%;
+  table-layout: fixed;          /* テーブルの列幅を固定レイアウトにする */
+  margin: 0 auto;
+}
+
+table, tr, th, td{
+  border: solid #dedede 1px;
+  padding: 10px 0;
+}
+
+/* 見出し */
+th {
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #2244aa;
+}
+
+/* データ */
+td {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000;
+}
+
+/* 最後の行の上部を破線で表示 */
+table tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+/* 偶数or奇数行によって背景色を指定 */
+table tr:nth-child(2n) {
+  background-color: #fff;
+}
+table tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
 /* 回答はここに書いてね */

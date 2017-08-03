@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.gray_box {
+  font-size: 18px;
+  line-height: 22px;
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #eff3f4;
+}
+
+/* 写真を左に寄せる処理 */
+.photo-left {
+  margin: 0 20px 10px 0;
+  float: left;
+}
+
+/* 写真を右に寄せる処理 */
+.photo-right {
+  margin: 0 0 10px 20px;
+  float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* word-break : 文章の折返し方法の設定 */
+.article_box {
+  word-break: break-all;
+}
+
 /* 回答はここに書いてね */

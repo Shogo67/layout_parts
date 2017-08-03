@@ -2,4 +2,168 @@
 
 /* 回答はここに書いてね */
 
+.boxA {
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+}
+
+/*----------------------------------------*/
+
+.q10_title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.q10_title:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.q10_title_txt {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #ECF1F2;
+}
+
+/*----------------------------------------*/
+
+
+.box1 {
+  float: left;
+  width: 300px;
+}
+
+.box2 {
+  float: right;
+  width: 380px;
+}
+
+/*----------------------------------------*/
+
+.q10_input::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box1_input {
+  margin-bottom: 20px;
+}
+
+li {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.box1_item_title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.star {
+  color: red;
+}
+
+.box1_item {
+  float: right;
+  width: 180px;
+}
+
+.text {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.radio_button {
+  height: 25px;
+  line-height: 25px;
+}
+
+.radio {
+  vertical-align: middle;
+}
+
+.radio_parts {
+  position: relative;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+}
+
+/* 選択肢枠の作成 */
+.radio_parts::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+/* 選択後の処理 */
+.radio:checked + .radio_parts::after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+.box1_button {
+  text-align: right;
+}
+
+.button {
+padding: 0 10px;
+border-radius: 5px;
+background-color: #00BCD4;
+color: #fff;
+cursor: pointer;
+font-size: 16px;
+line-height: 26px;
+}
+
+/*----------------------------------------*/
+
+.textarea {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  resize: none;
+}
+
 /* 回答はここに書いてね */

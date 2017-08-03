@@ -8,6 +8,7 @@
     <title>基本レイアウト・パーツ</title>
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -37,6 +38,76 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
+        <div class="boxA">
+          <form class="q10">
+            <div class="q10_title">
+              <p class="q10_title_txt">Form Exercise</p>
+            </div>
+
+            <div class="q10_input">
+              <div class="box1">
+                <ul class="box1_input">
+                  <li>
+                    <p class="box1_item_title">name
+                      <span class="star">*</span>
+                    </p>
+                    <div class="box1_item">
+                      <input type="text" class="text" name="q10_1" required></input>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="box1_item_title">Sex</p>
+                    <div class="box1_item">
+                      <div class="radio_button">
+                        <label>
+                          <input type="radio" name="q10_2" value="male" class="radio">
+                            <span class="radio_parts">male</span>
+                          </input>
+                        </label>
+                        <label>
+                          <input type="radio" name="q10_2" value="female" class="radio">
+                            <span class="radio_parts">female</span>
+                          </input>
+                        </label>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="box1_item_title">Email
+                      <span class="star">*</span>
+                    </p>
+                    <div class="box1_item">
+                      <input type="text" placeholder="ex) hoge@gmail.com" name="q10_3" class="text" required></input>
+                    </div>
+                  </li>
+                  <li>
+                    <p class="box1_item_title">Telephone</p>
+                    <div class="box1_item">
+                      <input type="text" placeholder="ex) 08012345678" name="q10_4" class="text"></input>
+                    </div>
+                  </li>
+                </ul>
+                <!--
+                <div class="box1_input">
+                  <div class="name box1_item">
+                    <p>name</p>
+                    <div><input type="text" class="text"></input></div>
+                  </div>
+                  <div class="sex box1_item">2</div>
+                  <div class="email box1_item">3</div>
+                  <div class="telephone box1_item">4</div>
+                </div>
+              -->
+                <div class="box1_button">
+                  <input type="submit" class="button" value="submit"></input>
+                </div>
+              </div>
+              <div class="box2">
+                <textarea placeholder="Please fill in the message..." name="q10_5" class="textarea"></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
 
         <!-- 回答はここに書いてね -->
     </div>

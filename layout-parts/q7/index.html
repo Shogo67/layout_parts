@@ -8,6 +8,7 @@
     <title>基本レイアウト・パーツ</title>
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -48,6 +49,57 @@
         ・:after
         -->
         <!-- 回答はここに書いてね -->
+
+        <div class="q7">
+          <!-- 1行のテキストボックス placeholder: ダミーテキスト -->
+          <div>
+            <input type="text" placeholder="input=&quot;text&quot;" class="text"></input>
+          </div>
+
+          <!-- 複数行のテキストボックス -->
+          <div>
+            <textarea placeholder="textarea(サイズ固定)" class="textarea"></textarea>
+          </div>
+
+          <!-- ラジオボタン -->
+          <div class="radio_button">
+            <label>
+              <input type="radio" name="radio" value="radio1" class="radio">
+                <span class="radio_parts">radio1</span>
+              </input>
+            </label>
+            <label>
+              <input type="radio" name="radio" value="radio2" class="radio">
+                <span class="radio_parts">radio2</span>
+              </input>
+            </label>
+          </div>
+
+          <!-- チェックボックス -->
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="checkbox" class="checkbox">
+                <span class="checkbox_parts">checkbox</span>
+              </input>
+            </label>
+          </div>
+
+          <!-- セレクトボックス -->
+          <div class="select_box">
+            <select class="select">
+              <option value="select1">select1</option>
+              <option value="select2">select2</option>
+              <option value="select3">select3</option>
+            </select>
+            <div class="arrow"></div>
+          </div>
+
+          <!-- ボタン -->
+          <div class="button">
+            <button>button</button>
+          </div>
+
+        </div>
 
         <!-- 回答はここに書いてね -->
     </div>

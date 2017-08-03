@@ -2,4 +2,154 @@
 
 /* 回答はここに書いてね */
 
+.q7 {
+  font-size: 0;
+  text-align: center;
+}
+
+.q7 div {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.text {
+  font-size: 16px;
+  padding: 5px;
+  border: solid 1px #00BCD4;
+  border-radius: 5px;
+}
+
+input::-webkit-input-placeholder {
+  color: #00BCD4;                   /* placeholderの文字色の指定 */
+}
+
+.textarea {
+  font-size: 16px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;         /* ユーザに要素のリサイズを提供しない */
+  outline: none;
+}
+
+/* ラジオボタンのスタイル再定義 */
+.radio {
+  vertical-align: middle;
+}
+
+.radio_parts {
+  position: relative;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+}
+
+/* 選択肢枠の作成 */
+.radio_parts::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+/* 選択後の処理 */
+.radio:checked + .radio_parts::after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
+}
+
+/* チェックボックスのスタイル再定義 */
+.checkbox {
+  vertical-align: middle;
+}
+
+.checkbox_parts {
+  position: relative;
+  padding: 3px 3px 3px 20px;
+  cursor: pointer;
+}
+
+.checkbox_parts::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: '';
+}
+
+.checkbox:checked + .checkbox_parts::after {
+  position: absolute;
+  top: 6px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  transform: rotate(-45deg);
+  content: '';
+}
+
+.select_box {
+  position: relative;
+}
+
+.select {
+  font-size: 14px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 5px 30px 5px 5px;
+  background-color: #fff;
+}
+
+/*
+  selectbox内に下向き矢印を表示
+  left, bottomにborderを表示して45°傾ける(transform: retate(-45deg))
+*/
+.arrow {
+    position: absolute;
+    top: -3px;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+    transform: rotate(-45deg);
+    content: "";
+}
+
+button {
+  font-size: 16px;
+  border: solid 1px #00BCD4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #00BCD4;
+  background-color: #fff;
+  cursor: pointer;
+  outline: 0;
+}
+
+button:active {
+  color: #fff;                    /* ボタンを押下した時の挙動 */
+  background-color: #00BCD4;
+}
+
 /* 回答はここに書いてね */

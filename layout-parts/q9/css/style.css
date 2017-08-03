@@ -2,4 +2,157 @@
 
 /* 回答はここに書いてね */
 
+.container {
+  padding: 20px;
+  background-color: #ecf1f2;
+}
+
+.item_row {
+  font-size: 0;
+  margin-bottom: 20px;
+}
+
+.item_row:last-child {
+  margin-bottom: 0;
+}
+
+.cell {
+  font-size: 16px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #fff;
+}
+
+
+.item_box12 {
+  width: 100%;
+}
+
+
+.item_box6 {
+  width: 50%;
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box6:first-child {
+  padding-left: 0;
+}
+
+.item_box6:last-child {
+  padding-right: 0;
+}
+
+
+.item_box4 {
+  width: 33.33333%;
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box4:first-child {
+  padding-left: 0;
+}
+
+.item_box4:last-child {
+  padding-right: 0;
+}
+
+
+.item_box3 {
+  width: 25%;
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box3:first-child {
+  padding-left: 0;
+}
+
+.item_box3:last-child {
+  padding-right: 0;
+}
+
+
+.item_box24 {
+  width: 20%;
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box24:first-child {
+  padding-left: 0;
+}
+
+.item_box24:last-child {
+  padding-right: 0;
+}
+
+
+.item_box2 {
+  width: 16.66666%;
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box2:first-child {
+  padding-left: 0;
+}
+
+.item_box2:last-child {
+  padding-right: 0;
+}
+
+
+.item_box633 {
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box633_6 {
+  width: 50%;
+}
+
+.item_box633_3 {
+  width: 25%;
+}
+
+.item_box633:first-child {
+  padding-left: 0;
+}
+
+.item_box633:last-child {
+  padding-right: 0;
+}
+
+
+.item_box2244 {
+  padding: 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.item_box2244_2 {
+  width: 16.66666%;
+}
+
+.item_box2244_4 {
+  width: 33.33333%;
+}
+
+.item_box2244:first-child {
+  padding-left: 0;
+}
+
+.item_box2244:last-child {
+  padding-right: 0;
+}
+
 /* 回答はここに書いてね */
