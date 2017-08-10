@@ -8,7 +8,7 @@
     <title>基本レイアウト・パーツ</title>
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/reset.css">
     <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout-parts/assets/css/base.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -52,40 +52,37 @@
 
         <div class="q7">
           <!-- 1行のテキストボックス placeholder: ダミーテキスト -->
-          <div>
-            <input type="text" placeholder="input=&quot;text&quot;" class="text"></input>
+          <div class="input">
+            <input type="text" placeholder="input=&quot;text&quot;" class="text" />
           </div>
 
           <!-- 複数行のテキストボックス -->
-          <div>
+          <div class="input">
             <textarea placeholder="textarea(サイズ固定)" class="textarea"></textarea>
           </div>
 
           <!-- ラジオボタン -->
-          <div class="radio_button">
+          <div class="input radio_button">
             <label>
-              <input type="radio" name="radio" value="radio1" class="radio">
-                <span class="radio_parts">radio1</span>
-              </input>
+              <input type="radio" name="radio" value="radio1" class="radio" />
+              <span class="radio_parts">radio1</span>
             </label>
             <label>
-              <input type="radio" name="radio" value="radio2" class="radio">
-                <span class="radio_parts">radio2</span>
-              </input>
+              <input type="radio" name="radio" value="radio2" class="radio" />
+              <span class="radio_parts">radio2</span>
             </label>
           </div>
 
           <!-- チェックボックス -->
-          <div class="checkbox">
+          <div class="input checkbox">
             <label>
-              <input type="checkbox" name="checkbox" class="checkbox">
-                <span class="checkbox_parts">checkbox</span>
-              </input>
+              <input type="checkbox" name="checkbox" class="checkbox" />
+              <span class="checkbox_parts">checkbox</span>
             </label>
           </div>
 
           <!-- セレクトボックス -->
-          <div class="select_box">
+          <div class="input select_box">
             <select class="select">
               <option value="select1">select1</option>
               <option value="select2">select2</option>
@@ -95,7 +92,7 @@
           </div>
 
           <!-- ボタン -->
-          <div class="button">
+          <div class="input button">
             <button>button</button>
           </div>
 

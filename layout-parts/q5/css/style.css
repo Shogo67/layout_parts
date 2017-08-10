@@ -6,14 +6,14 @@
   text-align: center;
 }
 
-.q5_1_text-align p {
+.q5_1_text-align_txt {
   width: 90px;
   padding: 10px 0;
   display: inline-block;          /* displayによる左右中央揃え */
   background-color: #e6f2ff;
 }
 
-.inner p {
+.inner_txt {
   width: 90px;
   padding: 10px 0;
   margin: 0 auto;         /* marginによる左右中央揃え */

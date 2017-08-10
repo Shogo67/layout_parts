@@ -16,10 +16,11 @@
   width: 230px;
   padding: 20px;
   margin-left: 20px;
+  list-style: none;
   background-color: #3274ae;
 }
 
-.gray_box .blue_box:first-child {
+.gray_box li:first-child {
   margin-left: 0;
 }
 

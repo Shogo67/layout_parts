@@ -26,7 +26,7 @@
   transition: 0.5s;     /* 0.5秒をかけて */
 }
 
-.image:hover {
+.photo:hover .image {
   transform: scale(1.5);     /* hover時画像を1.5倍に拡大 */
 }
 
@@ -40,7 +40,7 @@
   transition: 0.5s;
 }
 
-.image:hover + .mask {
+.photo:hover .mask {
   position: absolute;
   bottom: 0;
   left: 0;
